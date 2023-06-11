@@ -1,0 +1,23 @@
+class Livro {
+  _id: String | null;
+  codEditora: number;
+  titulo: string;
+  resumo: string;
+  autores: string[];
+
+  constructor(
+    _id: String | null,
+    codEditora: number,
+    titulo: string,
+    resumo: string,
+    autores: string[]
+  ) {
+    this._id = _id;
+    this.codEditora = codEditora;
+    this.titulo = titulo;
+    this.resumo = resumo;
+    this.autores = autores;
+  }
+}
+
+export default Livro;
